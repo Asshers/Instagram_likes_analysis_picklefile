@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Likes Rating Predictor</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body background="/static/images/background1.jpg">
+<!-- Input Form -->
+<div  class="input form">
+<!-- get is not safe, post method is safe -->
+  <form action="/predict"method="post">
+    <h1 id="heading"> Likes Rating Predictor</h1>
+    <h3 id="header">Month: </h3>  <input type="text" name="Month"><br>
+    <h3 id="header">dayOfWeek: </h3> <input type="text" name="dayOfWeek"><br>
+    <h3 id="header">Hour: </h3> <input type="text" name="Hour"><br>
+    <input type="submit" value="Predict">
+  </form>
+ 
+</div>
+   
+</body>
+</html>
